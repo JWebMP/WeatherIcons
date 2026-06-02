@@ -23,7 +23,7 @@ Built on [Weather Icons](http://erikflowers.github.io/weather-icons/) · [Angula
 <dependency>
   <groupId>com.jwebmp.plugins</groupId>
   <artifactId>weather-icons</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>2.0.3-SNAPSHOT</version>
 </dependency>
 ```
 
