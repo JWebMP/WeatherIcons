@@ -30,8 +30,9 @@ import com.jwebmp.core.services.IPageConfigurator;
 		pluginModuleName = "com.jwebmp.plugins.weathericons",
 		pluginStatus = PluginStatus.Released
 )
-@TsDependency(value = "weather-icons", version = "^2.0.12")
-@NgStyleSheet("node_modules/weather-icons/css/weather-icons.min.css")
+@TsDependency(value = "weathericons", version = "^2.1.0")
+@NgStyleSheet("node_modules/weathericons/css/weather-icons.min.css")
+@NgStyleSheet("node_modules/weathericons/css/weather-icons-wind.min.css")
 public class WeatherIconsPageConfigurator
 		implements IPageConfigurator<WeatherIconsPageConfigurator>
 {
